@@ -1,0 +1,30 @@
+.w100 {
+  width: 100%;
+}
+
+.tableWrapper {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto 3rem;
+}
+
+.footerRow {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  & .addRowBtn {
+    padding: 4px 8px;
+    border-radius: 16px;
+    margin-right: auto;
+    border: none;
+    background: darkturquoise;
+    color: white;
+    cursor: pointer;
+    transition: .25s all ease;
+
+    &:hover {
+      background-color: powderblue;
+      color: teal
+    }
+  }
+}

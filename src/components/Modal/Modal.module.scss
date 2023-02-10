@@ -1,0 +1,39 @@
+.overlay {
+  background: #00000055;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(5px);
+}
+
+.modal {
+  width: 80vw;
+  max-width: 600px;
+  background:white;
+  padding: 4rem;
+  border-radius: 32px;
+
+  & select {
+    padding: 1rem;
+    border-radius: 17px 0 0 17px;
+    border-color: teal;
+    color: #666666
+  }
+
+  & button {
+    padding: 17px;
+    border-radius: 0 17px 17px 0;
+    background: teal;
+    border: none;
+    color: white;
+  }
+}

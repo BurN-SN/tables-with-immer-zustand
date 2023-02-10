@@ -1,0 +1,41 @@
+.navWrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.tab {
+  height: 50px;
+  width: 50px;
+  border-radius: 2rem;
+  color: teal;
+  background: #d6d8df;
+  cursor:pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  transition: .15s all ease-in;
+  font-size: 72px;
+  color: white;
+  font-weight: 900;
+
+  &:hover {
+    background-color: powderblue;
+  }
+
+  &.active {
+    background-color: darkturquoise;
+  } 
+}
+
+.addTabBtn {
+  font-size: 24px;
+  margin-left: auto;
+  background-color: darkturquoise;
+  color: white;
+  &:hover {
+    color: teal;
+  }
+}
